@@ -3,10 +3,33 @@
   "version": "1.0.0",
   "description": "Diagnose and score your README.md — actionable health checks for project docs",
   "main": "index.js",
-  "bin": { "readme-doctor": "./cli.js" },
-  "scripts": { "test": "node test.js" },
-  "keywords": ["readme", "doctor", "docs", "health", "score", "lint", "audit"],
+  "bin": {
+    "readme-doctor": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "readme",
+    "doctor",
+    "docs",
+    "health",
+    "score",
+    "lint",
+    "audit"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
-  "engines": { "node": ">=16" }
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
